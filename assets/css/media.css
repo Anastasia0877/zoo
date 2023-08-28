@@ -1,0 +1,369 @@
+@media (max-width:1024.98px) {
+    /* slog */
+    .slog__container::after{
+        width: 250px;
+        height: 200px;
+        left: 100px;
+        top: 30px;
+    }
+    .slog__container::before{
+        width: 250px;
+        height: 150px;
+        left: 50%;
+        top: -70px;
+   }
+    #slog::after{
+        width: 200px;
+        height: 150px;
+        right: 150px;
+        bottom: 50px;
+    }
+
+    /* about-us */
+    .abou-us__info-container {
+        max-width: 350px;
+    }
+    .about-us__title {
+        font-size: 20px;
+    }
+    .about-us__subtitle {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .about-us__description-bot {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    #about-us .btn {
+        padding: 15px 30px;
+    }
+    .about-us__btn a{
+        font-size: 10px;
+    }
+
+    .about-us__items-container {
+        max-width: 420px;
+    }
+    .about-us__item {
+        max-width: 200px;
+        padding: 10px 20px 30px;
+    }
+    .about-us-item__img {
+        max-width: 50px;
+    }
+    .about-us-item_title {
+        font-size: 12px;
+    }
+    .about-us-item_subtitle {
+        font-size: 8px;
+    }
+
+    /* ideal */
+    .ideal__container-items{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* partner */
+    .partner-row__title {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .partner-row__subtitle {
+        font-size: 12px;
+    }
+
+    /* footer */
+    .footer__menu ul li a{
+        font-size: 10px;
+    }
+    .footer .title{
+        font-size: 12px;
+    }
+    .footer .subtitle{
+        font-size: 10px;
+    }
+    .footer__description-bot{
+        font-size: 12px;
+        max-width:320px;
+        line-height: 16px;
+    }
+    .footer__btn{
+        padding: 15px 30px;
+    }
+    .footer__btn a{
+       font-size: 10px;
+    }
+}
+
+@media (max-width:724.98px) {
+ /* slog */
+ .slog__container::after{
+    width: 200px;
+    height: 150px;
+    left: 50px;
+    top: 30px;
+}
+.slog__container::before{
+    width: 200px;
+    height: 100px;
+    left: 50%;
+    top: -70px;
+}
+#slog::after{
+    width: 150px;
+    height: 100px;
+    right: 50px;
+    bottom: 100px;
+}
+.slog__title{
+    max-width: 470px;
+    font-size: 20px;
+}
+.slog__subtitle{
+    max-width: 370px;
+    font-size: 13px;
+}
+.slog__social-network{
+    display: flex;
+    max-width: 250px;
+}
+.slog-social-network__item{
+    max-width: 25px;
+    max-height: 25px;
+}
+.btn{
+    padding: 15px 35px;
+}
+.slog__btn a{
+    font-size: 14px;
+}
+
+/* about-us */
+.abou-us__info-container {
+    max-width: 270px;
+}
+.about-us__title {
+    font-size: 17px;
+}
+.about-us__subtitle {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.about-us__description-bot {
+    font-size: 10px;
+    line-height: 13px;
+    margin-bottom: 20px;
+}
+#about-us .btn {
+    padding: 12px 25px;
+}
+.about-us__btn a{
+    font-size: 9px;
+}
+
+.about-us__items-container {
+    max-width: 320px;
+}
+.about-us__item {
+    max-width: 160px;
+    padding: 10px 15px 30px;
+}
+.about-us-item__img {
+    max-width: 40px;
+}
+.about-us-item_title {
+    font-size: 10px;
+}
+.about-us-item_subtitle {
+    font-size: 7px;
+}
+/* ideal */
+.ideal__title {
+    font-size: 23px;
+}
+.ideal__subtitle {
+    max-width: 750px;
+    font-size: 14px;
+}
+.ideal__container-items{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: -10px;
+}
+/* partner */
+.parnter__info-container{
+    flex-direction: column;
+}
+.partner__img-dog{
+    width: 0;
+    height: 0;
+    display: none;
+    visibility: hidden;   
+}
+/* order */
+.order__title{
+    font-size: 23px;
+}
+.order__subtitle{
+    font-size: 16px;
+    max-width: 400px;
+}
+/* req */
+.req__container{
+    flex-direction: column;
+}
+.req__info-container {
+   text-align: center;
+}
+.req__title {
+    font-size: 23px;
+}
+.req__subtitle {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+/* footer */
+.footer__info{
+    flex-direction: column;
+}
+.footer__info .logo{
+    margin-bottom: 20px;
+}
+.footer__menu{
+    margin-bottom: 20px;
+}
+.footer__adress{
+    margin-bottom: 50px;
+}
+}
+@media (max-width:579.98px) {
+
+     /* slog */
+ .slog__container::after{
+    width: 150px;
+    height: 100px;
+    left: 0px;
+    top: 30px;
+}
+.slog__container::before{
+    width: 150px;
+    height: 50px;
+    left: 50%;
+    top: -20px;
+}
+#slog::after{
+    width: 100px;
+    height: 70px;
+    right: 50px;
+    bottom: 100px;
+}
+.slog__title{
+    max-width: 300px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.slog__subtitle{
+    max-width: 320px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.slog__social-network{
+    display: flex;
+    max-width: 250px;
+}
+.slog-social-network__item{
+    max-width: 25px;
+    max-height: 25px;
+}
+.btn{
+    padding: 12px 30px;
+}
+.slog__btn a{
+    font-size: 12px;
+}
+/* about-us */
+.about-us__container {
+    flex-direction: column;
+}
+.abou-us__info-container {
+    max-width: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.about-us__title {
+    font-size: 17px;
+    text-align: center;
+}
+.about-us__subtitle {
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+}
+
+.about-us__description-bot {
+    font-size: 10px;
+    line-height: 13px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#about-us .btn {
+    padding: 12px 25px;
+}
+.about-us__btn a{
+    font-size: 9px;
+}
+
+.about-us__items-container {
+    max-width: 320px;
+}
+.about-us__row {
+    flex-direction: column;
+    align-items: center;
+}
+.about-us__item {
+    max-width: 260px;
+    padding: 10px 15px 30px;
+    margin-bottom: 20px;
+}
+.about-us-item__img {
+    max-width: 50px;
+}
+.about-us-item_title {
+    font-size: 14px;
+}
+.about-us-item_subtitle {
+    font-size: 10px;
+}
+/* order */
+.order__title{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.order__subtitle{
+    font-size: 14px;
+    max-width: 800px;
+}
+/* req */
+.req__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.req__subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.req__name__title {
+    font-size: 12px;
+}
+.req__code{
+    font-size: 12px;
+}
+.req__iban{
+font-size: 12px;
+}
+}

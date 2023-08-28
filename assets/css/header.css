@@ -1,0 +1,24 @@
+.site-nav{
+    margin-top: 20px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.site-nav .menu{
+    max-width: 650px;
+    width: 100%;
+}
+.site-nav .menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+.site-nav .menu ul li a{
+    color: var(--black);
+    font-family: var(--russo-one);
+    font-size: 14px;
+    transition: 0.5s;
+}
+.site-nav .menu ul li a:hover{
+    color: var(--blue);
+    transition: 0.5s;
+}
