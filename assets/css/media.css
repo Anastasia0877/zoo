@@ -335,7 +335,7 @@
     margin-bottom: 20px;
 }
 .about-us-item__img {
-    max-width: 50px;
+    max-width: 75px;
 }
 .about-us-item_title {
     font-size: 16px;
@@ -362,6 +362,7 @@
     font-size: 12px;
     line-height: 15px;
 }
+
 /* order */
 .order__title{
     margin-bottom: 20px;
