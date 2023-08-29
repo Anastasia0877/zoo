@@ -1,5 +1,14 @@
+.logo-header{
+    max-width: 250px;
+}
+.logo-header img{
+    width: 100%;
+}
 .site-nav{
+    max-width: 1400px;
     margin-top: 20px;
+    margin-bottom: 50px;
+    /* margin: 20px auto; */
     padding: 12px;
     display: flex;
     justify-content: space-between;
@@ -15,6 +24,7 @@
 .site-nav .menu ul li a{
     color: var(--black);
     font-family: var(--russo-one);
+    font-weight: bold;
     font-size: 14px;
     transition: 0.5s;
 }

@@ -1,4 +1,69 @@
 @media (max-width:1024.98px) {
+
+    /* header */
+    header .logo-header{
+        max-width: 180px;
+    }
+    .back-to-top img {
+        width: 40px;
+        height: 40px;
+    }
+    header .site-nav {
+        position: relative;
+    }
+    header .menu-icon {
+        position: absolute;
+        display: block;
+        z-index: 7;
+        right: 28px;
+        top:10px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: url("../img/menu2.svg") center/contain no-repeat;
+        transition: 0.2s;
+    }
+    header .menu-icon.active {
+        width: 20px;
+        height: 20px;
+        background: url("../img/close.svg") center/contain no-repeat;
+        transition: 0.2s;
+    }
+    header .menu {
+        position: absolute;
+        display: none;
+        z-index: 6;
+        top: 0px;
+        right: 15px;
+        width: 0;
+        height: 0;
+        margin: 0;
+        background-color: var(--white);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        opacity: 0;
+        transition: 1s;
+    }
+    header .menu.active {
+        width: 250px;
+        height: 250px;
+        display: block;
+        opacity: 1;
+        transition: 1s;
+    }
+
+    header .menu ul {
+        flex-direction: column;
+        padding: 40px 20px 20px;
+    }
+    header .menu ul li {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .site-nav .menu ul li a {
+       font-size: 12px;
+       text-align: center;
+    }
     /* slog */
     .slog__container::after{
         width: 250px;
@@ -24,10 +89,10 @@
         max-width: 350px;
     }
     .about-us__title {
-        font-size: 20px;
+        font-size: 24px;
     }
     .about-us__subtitle {
-        font-size: 10px;
+        font-size: 14px;
         line-height: 15px;
     }
 
@@ -74,6 +139,9 @@
     }
 
     /* footer */
+    .footer .logo{
+        max-width: 150px;
+    }
     .footer__menu ul li a{
         font-size: 10px;
     }
@@ -388,5 +456,9 @@
 }
 .req__iban{
 font-size: 12px;
+}
+/* footer */
+.footer{
+    padding-top: 50px;
 }
 }

@@ -1,3 +1,9 @@
+.footer .logo{
+    max-width: 200px;
+}
+.footer .logo img{
+    width: 100%;
+}
 .footer{
     background: #393939;
     padding-top: 90px;
