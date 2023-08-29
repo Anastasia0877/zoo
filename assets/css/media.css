@@ -239,6 +239,9 @@
 }
 }
 @media (max-width:579.98px) {
+    section{
+        margin-bottom: 20px;
+    }
 
      /* slog */
  .slog__container::after{
@@ -296,11 +299,12 @@
     
 }
 .about-us__title {
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
+    line-height: 20px;
 }
 .about-us__subtitle {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 12px;
     text-align: center;
 }
@@ -312,10 +316,10 @@
     text-align: center;
 }
 #about-us .btn {
-    padding: 12px 25px;
+    padding: 12px 30px;
 }
 .about-us__btn a{
-    font-size: 9px;
+    font-size: 12px;
 }
 
 .about-us__items-container {
@@ -334,14 +338,32 @@
     max-width: 50px;
 }
 .about-us-item_title {
-    font-size: 14px;
+    font-size: 16px;
 }
 .about-us-item_subtitle {
-    font-size: 10px;
+    font-size: 12px;
+}
+/* ideal */
+.ideal__title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.ideal__subtitle {
+    max-width: 750px;
+    font-size: 12px;
+}
+/* partner */
+.partner-row__title {
+    font-size: 13px;
+    margin-bottom: 5px;
+    line-height: 18px;
+}
+.partner-row__subtitle {
+    font-size: 12px;
+    line-height: 15px;
 }
 /* order */
 .order__title{
-    font-size: 22px;
     margin-bottom: 20px;
 }
 .order__subtitle{
