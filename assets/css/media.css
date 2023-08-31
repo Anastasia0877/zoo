@@ -497,6 +497,9 @@ font-size: 12px;
 }
 .form__img{
     display: none;
+    width: 0;
+    height: 0;
+    visibility: hidden;
 }
 .form__btn{
     font-size: 14px;
