@@ -139,6 +139,17 @@
         font-size: 12px;
     }
 
+    /* feedback */
+    .form__subtitle,
+    #fname,
+    #email,
+    .form__container #order{
+        margin-bottom: 30px;
+    }
+    .form__container #order{
+        max-height: 100px;
+    }
+
     /* footer */
     .footer .logo{
         max-width: 150px;
@@ -293,6 +304,28 @@
     font-size: 15px;
     margin-bottom: 30px;
 }
+
+/* feedback*/
+.form__title{
+    font-size: 20px;
+
+}
+.form__subtitle{
+    font-size: 13px;
+}
+    #fname,
+    #email,
+    .form__container #order{
+        font-size: 12px;
+    }
+    #fname::placeholder,
+#email::placeholder,
+#order::placeholder{
+    font-size: 12px;
+}
+    .form__container #order{
+        max-height: 70px;
+    }
 /* footer */
 .footer__info{
     flex-direction: column;
@@ -458,6 +491,17 @@
 .req__iban{
 font-size: 12px;
 }
+/* feedback */
+.form__container{
+    padding: 50px;
+}
+.form__img{
+    display: none;
+}
+.form__btn{
+    font-size: 14px;
+}
+
 /* footer */
 .footer{
     padding-top: 50px;
