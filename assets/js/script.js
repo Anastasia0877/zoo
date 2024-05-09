@@ -42,3 +42,11 @@ function backToTop() {
   })
 }
 backToTop();
+
+$(document).ready(function(){
+  $('.orders__slider').slick({
+      fade: true,
+      cssEase: 'linear',
+      appendArrows:".orders__slider-arrow"
+  });
+});

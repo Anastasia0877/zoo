@@ -1,6 +1,102 @@
-.orders-slide__container{
-max-width: 200px;
+.orders__container{
+   margin: 0 auto;
 }
-.orders-slide__container img{
-width: 100%;
+.orders_page_title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.order__item{
+    margin: 0 auto 70px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.order__item::after{
+    display: block;
+    content: "";
+    width: 80%;
+    height: 1px;
+    background: var(--black);
+    position: absolute;
+    top: calc(100% + 30px);
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+/* slider */
+.slider__container{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+}
+.order__image{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.order__image img{
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.orders__slider-arrow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.slick-arrow {
+    font-size: 0;
+    background-image: url("../img/arrow-right.png");
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    transition: 1s;
+}
+.slick-arrow:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
+.slick-prev {
+    transform: rotate(180deg);
+}
+/* text */
+
+.order_item_info__date{
+    font-family: var(--montserrat);
+    font-weight: bolder;
+    color: #555353;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.order_item_info__title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.order_item_info__subtitle{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.orders__description-bot{
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family: var(--montserrat);
+    font-weight: 700;
+}
+
+.order_item__info .social-network{
+    transform: scale(0.8);
+}
+.orders__btn{
+    margin-bottom: 30px;
 }
